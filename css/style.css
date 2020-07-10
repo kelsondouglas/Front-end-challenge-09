@@ -1,0 +1,19 @@
+:root {
+--Pale_Blue: hsl(243, 100%, 93%);
+--Grayish_Blue: hsl(229, 7%, 55%);
+--Dark_Blue: hsl(228, 56%, 26%);
+--Very_Dark_Blue: hsl(229, 57%, 11%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: var(--Very_Dark_Blue);
+    color: var(--Pale_Blue);
+}
